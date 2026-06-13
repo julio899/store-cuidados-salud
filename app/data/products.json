@@ -1,0 +1,207 @@
+[
+  {
+    "id": "hydra-cleanse-milk",
+    "name": "Hydra-Cleanse Milk",
+    "category": "Limpiador",
+    "price": 34,
+    "compareAtPrice": 42,
+    "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=900&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=900&q=80"
+    ],
+    "description": "Un limpiador suave de crema a espuma con pH balanceado que elimina impurezas sin dañar la barrera cutánea. Enriquecido con lípidos de avena, escualano y bisabolol calmante — la piel queda suave, nunca tirante.",
+    "features": [
+      "pH balanceado (5.5) — respeta el manto ácido",
+      "Lípidos de avena + bisabolol calman el enrojecimiento al contacto",
+      "No comedogénico, sin fragancia",
+      "Apto para pieles sensibles y reactivas",
+      "150ml / 5.0 fl oz"
+    ],
+    "howToUse": "Masajea 1-2 pumps sobre la piel húmeda mañana y noche. Enjuaga con agua tibia. Continúa con sérum e hidratante.",
+    "ingredients": "Agua, Glicerina, Escualano, Harina de Avena Sativa, Bisabolol, Tocoferol, Ácido Cítrico",
+    "rating": 4.7,
+    "reviewCount": 1832,
+    "badge": "Aprobado por Dermatólogos",
+    "inStock": true
+  },
+  {
+    "id": "the-glow-serum",
+    "name": "The Glow Serum",
+    "category": "Sérum",
+    "price": 58,
+    "compareAtPrice": 72,
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=900&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=900&q=80"
+    ],
+    "description": "Un sérum ligero de vitamina C + niacinamida + escualano que ilumina, hidrata y unifica visiblemente el tono en 14 días. Dosis clínica. Clínicamente amado. Potenciado con 15% de ácido L-ascórbico estabilizado con ácido ferúlico y vitamina E.",
+    "features": [
+      "15% ácido L-ascórbico (estabilizado) — brillo visible en 14 días",
+      "5% niacinamida — unifica el tono, refina los poros",
+      "Escualano — hidratación ligera, no comedogénico",
+      "Ácido ferúlico + vitamina E — triple protección antioxidante",
+      "Dermatológicamente probado, sin fragancia, libre de crueldad",
+      "30ml / 1.0 fl oz"
+    ],
+    "howToUse": "Aplica 3-4 gotas sobre la piel limpia y seca cada mañana. Da palmaditas suaves hasta que se absorba. Siempre continúa con SPF 30+.",
+    "ingredients": "Agua, Ácido L-Ascórbico (15%), Niacinamida (5%), Escualano, Ácido Ferúlico, Tocoferol, Hialuronato de Sodio",
+    "rating": 4.9,
+    "reviewCount": 2847,
+    "badge": "Más Vendido",
+    "swatches": [
+      { "label": "Cuarzo Rosa", "color": "#E8C9BD" },
+      { "label": "Arena Cálida", "color": "#C9A48A" },
+      { "label": "Salvia", "color": "#7A8A6B" }
+    ],
+    "inStock": true
+  },
+  {
+    "id": "daily-mineral-shield-spf50",
+    "name": "Daily Mineral Shield SPF 50",
+    "category": "Protector Solar",
+    "price": 42,
+    "image": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=900&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=900&q=80"
+    ],
+    "description": "Un protector solar 100% mineral de amplio espectro SPF 50 que se difumina invisiblemente — sin residuo blanco, sin acabado graso. Óxido de zinc con niacinamida para una piel protegida y perfeccionada en un solo paso. Seguro para arrecifes y resistente al agua hasta 40 minutos.",
+    "features": [
+      "100% mineral — 22% óxido de zinc no-nano",
+      "Acabado invisible — funciona en todos los tonos de piel",
+      "Niacinamida + escualano — trata mientras protege",
+      "Seguro para arrecifes, resistente al agua (40 min)",
+      "PA++++ — máxima protección UVA",
+      "50ml / 1.7 fl oz"
+    ],
+    "howToUse": "Agita bien. Aplica generosamente como último paso de tu rutina matutina, 15 minutos antes de la exposición solar. Reaplica cada 2 horas.",
+    "ingredients": "Óxido de Zinc (22%), Agua, Escualano, Niacinamida, Tocoferol, Óxidos de Hierro",
+    "rating": 4.6,
+    "reviewCount": 1543,
+    "badge": "Nueva Fórmula",
+    "inStock": true
+  },
+  {
+    "id": "hair-skin-nails-capsules",
+    "name": "Cápsulas Cabello·Piel·Uñas",
+    "category": "Vitaminas",
+    "price": 38,
+    "compareAtPrice": 48,
+    "image": "https://images.unsplash.com/photo-1550572017-edd951b55104?auto=format&fit=crop&w=900&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1550572017-edd951b55104?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=900&q=80"
+    ],
+    "description": "Cápsulas diarias con biotina, péptidos de colágeno, zinc y una mezcla herbal exclusiva para fortalecer el cabello, suavizar la textura de la piel y fortificar las uñas desde adentro. Resultados en 4-6 semanas de uso constante.",
+    "features": [
+      "5000mcg de biotina + péptidos de colágeno tipo I y III",
+      "Zinc + selenio — salud del cuero cabelludo y soporte antioxidante",
+      "Extracto de cola de caballo + sílice de bambú — potenciadores naturales de queratina",
+      "60 cápsulas — suministro para 30 días",
+      "Sin gluten, no-GMO, cápsula vegana"
+    ],
+    "howToUse": "Toma 2 cápsulas al día con una comida y un vaso lleno de agua. La constancia es clave — los resultados suelen ser visibles en 4-6 semanas.",
+    "ingredients": "Biotina (5000mcg), Péptidos de Colágeno (Tipo I y III), Zinc, Selenio, Extracto de Cola de Caballo, Sílice de Bambú, Complejo de Vitamina B",
+    "rating": 4.8,
+    "reviewCount": 2190,
+    "badge": "Favorito de Clientes",
+    "inStock": true
+  },
+  {
+    "id": "overnight-renewal-cream",
+    "name": "Crema Renovadora Nocturna",
+    "category": "Hidratante",
+    "price": 64,
+    "compareAtPrice": 78,
+    "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=900&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=900&q=80"
+    ],
+    "description": "Una rica crema de tratamiento nocturno con bakuchiol (una alternativa suave al retinol), péptidos y ceramidas. Trabaja mientras duermes para suavizar líneas finas, restaurar la elasticidad y reconstruir la barrera cutánea. Despierta con una piel que se siente tersa, descansada y renovada.",
+    "features": [
+      "2% bakuchiol — alternativa suave al retinol, seguro para pieles sensibles",
+      "Complejo de ceramidas — reconstruye la barrera cutánea durante la noche",
+      "Péptidos — estimulan el colágeno, reafirman la piel",
+      "Rica pero no comedogénica — no obstruye los poros",
+      "Sutil aroma natural a lavanda (sin aceites esenciales)",
+      "50ml / 1.7 fl oz"
+    ],
+    "howToUse": "Aplica una cantidad del tamaño de un guisante como último paso de tu rutina nocturna. Masajea hacia arriba y hacia afuera. Usa cada noche.",
+    "ingredients": "Agua, Bakuchiol (2%), Ceramida NP, Ceramida AP, Ceramida EOP, Palmitoil Tripéptido-1, Escualano, Manteca de Karité, Tocoferol",
+    "rating": 4.8,
+    "reviewCount": 967,
+    "badge": "Nuevo",
+    "inStock": true
+  },
+  {
+    "id": "eye-bright-complex",
+    "name": "Complejo Iluminador de Ojos",
+    "category": "Tratamiento",
+    "price": 48,
+    "image": "/img/image_8.avif",
+    "images": [
+      "/img/image_8.avif"
+    ],
+    "description": "Un tratamiento ocular refrescante con cafeína, vitamina K y péptidos para reducir visiblemente las ojeras, desinflamar las bolsas y suavizar las líneas finas. El aplicador de cerámica proporciona un efecto refrescante instantáneo — sin estirar ni jalar.",
+    "features": [
+      "Cafeína + vitamina K — reduce visiblemente las ojeras en 7 días",
+      "Punta de cerámica refrescante — desinflama al contacto",
+      "Péptidos — suavizan las patas de gallo con el tiempo",
+      "Probado por oftalmólogos, sin fragancia",
+      "15ml / 0.5 fl oz"
+    ],
+    "howToUse": "Desliza suavemente la punta de cerámica debajo de cada ojo. Da palmaditas con el dedo anular para absorber el exceso. Usa mañana y noche antes del hidratante.",
+    "ingredients": "Agua, Cafeína, Vitamina K, Palmitoil Tetrapéptido-7, Ácido Hialurónico, Tocoferol, Ceramida NP",
+    "rating": 4.5,
+    "reviewCount": 734,
+    "inStock": true
+  },
+  {
+    "id": "scalp-renewal-serum",
+    "name": "Sérum Renovador Capilar",
+    "category": "Cuidado Capilar",
+    "price": 44,
+    "image": "https://images.unsplash.com/photo-1626015449281-13f5f0c9a0c1?auto=format&fit=crop&w=900&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1626015449281-13f5f0c9a0c1?auto=format&fit=crop&w=900&q=80"
+    ],
+    "description": "Un tratamiento ligero nocturno para el cuero cabelludo con extracto de trébol rojo, biotina y péptidos para un cabello más grueso y con más volumen. El gotero de precisión aplica directamente en el cuero cabelludo — sin residuos grasos, solo un entorno saludable para un cabello más fuerte.",
+    "features": [
+      "Extracto de trébol rojo — clínicamente demostrado que favorece la densidad capilar",
+      "Biotina + péptidos — fortalecen el cabello existente desde la raíz",
+      "Fórmula no grasa y de rápida absorción",
+      "Apto para todo tipo de cabello y texturas",
+      "50ml / 1.7 fl oz"
+    ],
+    "howToUse": "Aplica 1 gotero completo directamente sobre el cuero cabelludo seco o húmedo por la noche. Masajea con las yemas de los dedos. No enjuagar. Usa a diario.",
+    "ingredients": "Agua, Extracto de Trébol Rojo, Biotina, Acetil Tetrapéptido-3, Niacinamida, Pantenol, Tocoferol",
+    "rating": 4.4,
+    "reviewCount": 621,
+    "badge": "Viral en TikTok",
+    "inStock": true
+  },
+  {
+    "id": "lip-barrier-balm",
+    "name": "Bálsamo Barrera Labial",
+    "category": "Tratamiento",
+    "price": 22,
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=900&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=900&q=80"
+    ],
+    "description": "Un bálsamo labial rico y acolchado con lanolina, manteca de karité y un toque de escualano vegetal. Alivia instantáneamente los labios secos y agrietados y retiene la humedad durante horas. Sin pegajosidad, sin fragancia — solo labios suaves y saludables.",
+    "features": [
+      "Lanolina + manteca de karité — humedad profunda y duradera",
+      "Escualano — capa ligera de hidratación",
+      "Brillo natural sutil, sin pegajosidad",
+      "Sin fragancia, probado por dermatólogos",
+      "15g / 0.5 oz"
+    ],
+    "howToUse": "Aplica una capa fina en los labios según sea necesario durante el día. Puede usarse como mascarilla labial nocturna con una capa más gruesa.",
+    "ingredients": "Lanolina, Manteca de Karité, Escualano, Tocoferol, Cera de Abejas, Aceite de Ricino",
+    "rating": 4.7,
+    "reviewCount": 1205,
+    "inStock": true
+  }
+]

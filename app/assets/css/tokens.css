@@ -1,0 +1,31 @@
+/* ============================================================
+   PielStore — Design Tokens
+   ============================================================ */
+:root {
+  /* Palette — warm bone canvas + terracotta accent */
+  --bone:        #FAF7F2;
+  --bone-2:      #F2EDE4;
+  --bone-3:      #E8E0D3;
+  --ink:         #1A1A1A;
+  --ink-soft:    #3A3735;
+  --muted:       #6B6660;
+  --line:        #D9D1C2;
+  --blush:       #E8C9BD;
+  --clay:        #B5563A;
+  --clay-deep:   #8E3F28;
+  --sage:        #7A8A6B;
+
+  /* Type */
+  --serif: "Cormorant Garamond", "Times New Roman", serif;
+  --sans:  "Inter Tight", -apple-system, "Helvetica Neue", Arial, sans-serif;
+
+  /* Layout */
+  --max: 1400px;
+  --gutter: clamp(1.25rem, 3.5vw, 3rem);
+  --radius-sm: 4px;
+  --radius:    12px;
+  --radius-lg: 24px;
+
+  /* Motion */
+  --ease: cubic-bezier(.2, .7, .2, 1);
+}
