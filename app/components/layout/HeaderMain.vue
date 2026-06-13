@@ -2,6 +2,7 @@
 import type { NavLink } from '~/types'
 import { navLinks } from '~/data/navigation'
 import CartPreview from '~/components/cart/CartPreview.vue'
+import CartFlyAnimation from '~/components/cart/CartFlyAnimation.vue'
 
 interface HeaderMainProps {
   logoText?: string
@@ -41,6 +42,7 @@ const mobileMenuOpen = ref(false)
           class="icon-btn cart-btn"
           :class="{ 'cart-pulse': justAdded }"
           :aria-label="`Carrito, ${itemCount} productos`"
+          data-cart-target
           @click="toggleCart()"
         >
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
@@ -62,6 +64,7 @@ const mobileMenuOpen = ref(false)
       </div>
     </div>
     <CartPreview />
+    <CartFlyAnimation />
   </header>
 </template>
 

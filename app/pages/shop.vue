@@ -2,14 +2,23 @@
 import ProductCard from '~/components/product/ProductCard.vue'
 import { allProducts } from '~/data/products'
 
+const ui = useUIStore()
+
 const categories = [...new Set(allProducts.map((p) => p.category))]
-const selectedCategory = ref<string | null>(null)
 
 const filteredProducts = computed(() =>
-  selectedCategory.value
-    ? allProducts.filter((p) => p.category === selectedCategory.value)
+  ui.activeFilter
+    ? allProducts.filter((p) => p.category === ui.activeFilter)
     : allProducts,
 )
+
+onMounted(() => {
+  const params = new URLSearchParams(window.location.search)
+  const catParam = params.get('category')
+  if (catParam) {
+    ui.setActiveFilter(catParam)
+  }
+})
 </script>
 
 <template>
@@ -36,8 +45,8 @@ const filteredProducts = computed(() =>
         <div class="filter-row">
           <button
             class="filter-pill"
-            :class="{ active: selectedCategory === null }"
-            @click="selectedCategory = null"
+            :class="{ active: ui.activeFilter === null }"
+            @click="ui.setActiveFilter(null)"
           >
             Todos
           </button>
@@ -45,8 +54,8 @@ const filteredProducts = computed(() =>
             v-for="cat in categories"
             :key="cat"
             class="filter-pill"
-            :class="{ active: selectedCategory === cat }"
-            @click="selectedCategory = cat"
+            :class="{ active: ui.activeFilter === cat }"
+            @click="ui.setActiveFilter(cat)"
           >
             {{ cat }}
           </button>

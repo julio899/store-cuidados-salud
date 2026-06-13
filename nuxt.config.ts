@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
+  modules: ['@pinia/nuxt'],
   css: [
     '~/assets/css/tokens.css',
     '~/assets/css/base.css',
@@ -9,7 +10,7 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
-      htmlAttrs: { lang: 'en' },
+      htmlAttrs: { lang: 'es' },
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },

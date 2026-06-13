@@ -10,11 +10,16 @@ const props = withDefaults(defineProps<ProductCardProps>(), {
   delay: 1,
 })
 
-const { addItem, openCart } = useCart()
+const { addItem, openCart, setFlyProduct } = useCart()
+const imgRef = ref<HTMLImageElement | null>(null)
 const added = ref(false)
 
 function handleAdd(event: MouseEvent) {
   event.preventDefault()
+  if (imgRef.value) {
+    const rect = imgRef.value.getBoundingClientRect()
+    setFlyProduct(props.product.image, rect)
+  }
   addItem(props.product)
   added.value = true
   setTimeout(() => { added.value = false }, 1200)
@@ -25,7 +30,7 @@ function handleAdd(event: MouseEvent) {
   <RevealWrapper :delay="(delay as 1 | 2 | 3 | 4 | 5)">
     <a class="product" :href="`/shop/${product.id}`">
       <div class="p-img">
-        <img :src="product.image" :alt="product.name" loading="lazy">
+        <img ref="imgRef" :src="product.image" :alt="product.name" loading="lazy">
       </div>
       <div class="p-body">
         <span class="p-cat">{{ product.category }}</span>

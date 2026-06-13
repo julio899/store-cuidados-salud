@@ -140,9 +140,7 @@
     "category": "Tratamiento",
     "price": 48,
     "image": "/img/image_8.avif",
-    "images": [
-      "/img/image_8.avif"
-    ],
+    "images": ["/img/image_8.avif"],
     "description": "Un tratamiento ocular refrescante con cafeína, vitamina K y péptidos para reducir visiblemente las ojeras, desinflamar las bolsas y suavizar las líneas finas. El aplicador de cerámica proporciona un efecto refrescante instantáneo — sin estirar ni jalar.",
     "features": [
       "Cafeína + vitamina K — reduce visiblemente las ojeras en 7 días",
@@ -162,9 +160,9 @@
     "name": "Sérum Renovador Capilar",
     "category": "Cuidado Capilar",
     "price": 44,
-    "image": "https://images.unsplash.com/photo-1626015449281-13f5f0c9a0c1?auto=format&fit=crop&w=900&q=80",
+    "image": "/img/a-woman-enjoys-a-tranquil-scalp-massage-in-a-calming-spa-environment-soft-lighting-enhances-her-relaxed-expression-as-the-therapist-gently-cares-for-her-hair-and-scalp-promoting-relaxation-photo.jpeg",
     "images": [
-      "https://images.unsplash.com/photo-1626015449281-13f5f0c9a0c1?auto=format&fit=crop&w=900&q=80"
+      "/img/a-woman-enjoys-a-tranquil-scalp-massage-in-a-calming-spa-environment-soft-lighting-enhances-her-relaxed-expression-as-the-therapist-gently-cares-for-her-hair-and-scalp-promoting-relaxation-photo.jpeg"
     ],
     "description": "Un tratamiento ligero nocturno para el cuero cabelludo con extracto de trébol rojo, biotina y péptidos para un cabello más grueso y con más volumen. El gotero de precisión aplica directamente en el cuero cabelludo — sin residuos grasos, solo un entorno saludable para un cabello más fuerte.",
     "features": [
